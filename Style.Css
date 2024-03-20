@@ -15,9 +15,10 @@
 .start{
     color: #141c3a;
     font-family:"TildaSans",sans-serif;
-    line-height: 2;
+    line-height: 1.7;
 }
 .toper{
+    line-height: 1.4;
     width: 1200px;
     padding: 0 50px;
     margin: 0 auto;
@@ -41,15 +42,21 @@
     margin-right: 50px;
 }
 .ibunt{
-    padding: 0 5px;
+    font-size: 25px;
+    height: 35px;
+    padding: 0 10px;
     display: block;
     color: #FF9235;
     border-radius: 15px;
     border: 2px solid #FF9235;
     text-decoration: none;
+    background-color: #fff;
 }
 h1{
     font-size: 54px;
+}
+h2{
+    font-size: 36px;
 }
 .images{
     
@@ -77,6 +84,12 @@ h1{
     margin-right: auto;
     width: 900px;
 }
+.roum2{
+    padding: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+    text-align: center;
+}
 .dies{
     border: 3px solid #5DD9C8;
     border-radius: 12px;
@@ -84,10 +97,26 @@ h1{
     margin-right: auto;
     margin-top: -100px;
     width: 300px;
-    height: 450px;
+    height: 500px;
 }
 .dies img{
     border-radius: 12px;
     width: 100%;
     height: 100%;
+}
+.alien{
+    display: flex;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+    border: 1px solid #5DD9C8;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+}
+.alien tr td{
+    vertical-align: top;
+    font-size: 30px;
+    padding: 50px;
+    width: calc(100%/3);
+    border: 1px solid #5DD9C8;
 }
