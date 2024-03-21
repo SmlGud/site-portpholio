@@ -58,9 +58,6 @@ h1{
 h2{
     font-size: 36px;
 }
-.images{
-    
-}
 .roum{
     text-align: center;
     margin-top: 50px;
@@ -85,10 +82,39 @@ h2{
     width: 900px;
 }
 .roum2{
+    line-height: 1.4;
     padding: 50px;
     padding-bottom: 100px;
     width: 100%;
     text-align: center;
+}
+.tbline{
+    overflow: hidden;
+    color: #FF9235;
+}
+.tbline p{
+    margin: 0;
+}
+.tbsot{
+    vertical-align: top;
+    font-size: 30px;
+    padding: 50px;
+    padding-top: 0px;
+    width: calc(100%/3);
+    border-left: 1px solid #5DD9C8;
+    border-right: 1px solid #5DD9C8;
+    border-top: none;
+    border-bottom: none;
+}.tbsit{
+    vertical-align: top;
+    font-size: 30px;
+    padding: 50px;
+    padding-bottom: 0px;
+    width: calc(100%/3);
+    border-left: 1px solid #5DD9C8;
+    border-right: 1px solid #5DD9C8;
+    border-top: none;
+    border-bottom: none;
 }
 .dies{
     border: 3px solid #5DD9C8;
@@ -113,10 +139,4 @@ h2{
     margin-right: auto;
     width: 1300px;
 }
-.alien tr td{
-    vertical-align: top;
-    font-size: 30px;
-    padding: 50px;
-    width: calc(100%/3);
-    border: 1px solid #5DD9C8;
-}
+
