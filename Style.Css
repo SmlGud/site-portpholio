@@ -88,6 +88,48 @@ h2{
     width: 100%;
     text-align: center;
 }
+.roum3{
+    line-height: 1.4;
+    padding: 50px;
+    padding-bottom: 100px;
+    width: auto;
+    text-align: center;
+}
+.roum30{
+    display: flex;
+}
+.roum31{
+    margin: auto;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 10px;
+    line-height: 1.4;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    width: auto;
+}
+.roum312{
+    display: flex;
+    border: 1px solid #8063A6;
+    height: 160px;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+/* .roum3120{
+    display: block;
+    width: 300px;
+} */
+.roum3121{
+    border-radius: 12px;
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
 .tbline{
     overflow: hidden;
     color: #FF9235;
