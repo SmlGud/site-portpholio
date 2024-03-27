@@ -13,19 +13,22 @@
         url(TildaSans-Semibold.ttf) format("ttf");
 }
 .start{
+    margin: 0;
+    padding: 0;
     color: #141c3a;
     font-family:"TildaSans",sans-serif;
     line-height: 1.7;
 }
 .toper{
-    line-height: 1.4;
-    width: 1200px;
-    padding: 0 50px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    font-size: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 .bunt2{
+    line-height: 36px;
+    font-size: 25px;
     text-decoration: none;
     color: #141c3a;
 }
@@ -35,64 +38,126 @@
 .bunt{
     display: flex;
     list-style: none;
-    flex-wrap: wrap;
+    width: 50%;
+    margin: 45px 0 45px 25%;
+    padding: 0;
+    
+    justify-content: space-around;
+    align-items: center;
 }
 .bunt1{
     padding: 0 5px;
-    margin-right: 50px;
+}
+.bunt19{
+    line-height: 1.4;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .ibunt{
     font-size: 25px;
-    height: 35px;
-    padding: 0 10px;
-    display: block;
+    padding: 9px 22px;
     color: #FF9235;
     border-radius: 15px;
     border: 2px solid #FF9235;
     text-decoration: none;
     background-color: #fff;
 }
+.ibunt1{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 25px;
+    height: 35px;
+    color: #FF9235;
+    border-radius: 15px;
+    border: 2px solid #FF9235;
+    text-decoration: none;
+    background-color: #fff;}
 h1{
+    margin: 0;
+    padding: 0;
     font-size: 54px;
+    font-family: "TildaSans", sans-serif;
+    font-weight: 700;
+    line-height: 81px;
+    text-transform: uppercase;
 }
 h2{
     font-size: 36px;
 }
-.roum{
+.try{
+    font-family: "TildaSans", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
     text-align: center;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 809px;
+    width: 70%;
+    margin: 48px 0 0 0;
+    padding: 0
+}
+.roum{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0 0 0;
+    
 }
 .roum p{
     font-size: 30px;
 }
 .roum1{
-    padding: 50px;
-    padding-bottom: 100px;
     width: 100%;
-    text-align: center;
-    background-color: #5DD9C8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .roum12{
+    background-color: #5DD9C8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 0 0 0;
     font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 900px;
+ 
+}
+.roum123{
+    width: 30vw;
+    height: 40vw;
+    margin: -10vw 0 76px 0;
+    padding: 0;
+    border: 3px solid #5dd9c8;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .roum2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     line-height: 1.4;
     padding: 50px;
     padding-bottom: 100px;
-    width: 100%;
     text-align: center;
 }
+.roum2 h1{
+    margin: 60px 0;
+}
 .roum3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     line-height: 1.4;
     padding: 50px;
     padding-bottom: 100px;
-    width: auto;
     text-align: center;
 }
 .roum30{
@@ -118,10 +183,6 @@ h2{
     padding: 0;
     margin: 0;
 }
-/* .roum3120{
-    display: block;
-    width: 300px;
-} */
 .roum3121{
     border-radius: 12px;
     display: block;
@@ -130,55 +191,150 @@ h2{
     width: 100%;
 
 }
-.tbline{
-    overflow: hidden;
+.tbsit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start
+}
+.tbsit1{
+    width: 72px;
+    height: 72px;
+}
+.tbsit10{
+    padding: 0;
+    margin: 12px 0;
+    font-family: "TildaSans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
     color: #FF9235;
 }
-.tbline p{
+.tbsit11{
+    list-style: none;
+    font-family: "TildaSans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
     margin: 0;
-}
-.tbsot{
-    vertical-align: top;
-    font-size: 30px;
-    padding: 50px;
-    padding-top: 0px;
-    width: calc(100%/3);
-    border-left: 1px solid #5DD9C8;
-    border-right: 1px solid #5DD9C8;
-    border-top: none;
-    border-bottom: none;
-}.tbsit{
-    vertical-align: top;
-    font-size: 30px;
-    padding: 50px;
-    padding-bottom: 0px;
-    width: calc(100%/3);
-    border-left: 1px solid #5DD9C8;
-    border-right: 1px solid #5DD9C8;
-    border-top: none;
-    border-bottom: none;
-}
-.dies{
-    border: 3px solid #5DD9C8;
-    border-radius: 12px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -100px;
-    width: 300px;
-    height: 500px;
-}
-.dies img{
-    border-radius: 12px;
+    padding: 0 0 32px 0;
     width: 100%;
-    height: 100%;
+}
+.tbsit2{
+    padding: 0;
+    margin: 25px 0;
+    font-family: "TildaSans", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+}
+.tbsit3{
+    font-family: "TildaSans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 12px 0px;
+    width: 100%;
 }
 .alien{
-    display: flex;
-    flex-wrap: wrap;
-    border-collapse: collapse;
-    border: 1px solid #5DD9C8;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1300px;
+    width: 95%;
+    border-radius: 12px;
+    border: 1px solid #5dd9c8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 70px;
 }
+.alien11{
+    border-left: 1px solid #5dd9c8;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 70px;
+}
+.alien11:first-child{
+    border-left: 0px;
+}
+.t132{
+    display: inline-block;
+    justify-content: center;
+}
+.form1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 50px;
+    width: auto;
+}
+.outform{
+    justify-content: center;
+}
+.inform{
+    display: inline-block;
+    padding: 50px;
+    position: relative;
+}
+.inform1 input{
+    width: 300px;
+    height: 60px;
+    border-radius: 12px;
+    border: 1px solid #FF9235;
+}
+.inform2 input{
+    width: 300px;
+    height: 60px;
+    border-radius: 12px;
+    border: 1px solid #FF9235;
+}
+.inform3 input{
+    width: 660px;
+    height: 300px;
+    border-radius: 12px;
+    border: 1px solid #FF9235;
+}
+.inform1 label{
+    display: block; 
+    margin-bottom: 10px;
+}
+.inform2 label{
+    display: block; 
+    margin-bottom: 10px;
+}
+.inform3 label{
+    display: block; 
+    margin-bottom: 10px;
+}
+.trd{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 60px;
+}
+.inform1 {
+    width: 300px;
+    display: block; 
+    margin-bottom: 10px;
+}
+.inform2 {
+    width: 300px;
+    display: block; 
+    margin-bottom: 10px;
+}
+.inform3{
 
+}
+.outimages{
+    width: auto;
+    padding-left: 100px;
+}
+.images{
+    max-width: 80vw;
+    margin: 66px 0 0 0;
+    padding: 0;
+}.images1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
