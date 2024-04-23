@@ -1,16 +1,59 @@
 @font-face{
-    font-family: "TildaSans";
-    font-weight: 700;
+    font-family: TildaSans;
     font-style: normal;
-    src: url(TildaSans-Black.ttf) format("ttf"),
-        url(TildaSans-Bold.ttf) format("ttf");
+    font-weight: 100;
+    src: url(TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
-    font-family: "TildaSans";
-    font-weight: 400;
+    font-family: TildaSans;
     font-style: normal;
-    src: url(TildaSans-ExtraBold.ttf) format("ttf"),
-        url(TildaSans-Semibold.ttf) format("ttf");
+    font-weight: 200;
+    src: url(TildaSans-Black.ttf) format("ttf");
+}
+@font-face{
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url(TildaSans-Black.ttf) format("ttf");
+}
+@font-face{
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(TildaSans-Black.ttf) format("ttf");
+}
+@font-face{
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url(TildaSans-Black.ttf) format("ttf");
+}
+@font-face{
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 600;
+    src: url(TildaSans-Black.ttf) format("ttf");
+}
+@font-face{
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(TildaSans-Black.ttf) format("ttf");
+}
+@font-face{
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 800;
+    src: url(TildaSans-Black.ttf) format("ttf");
+}
+
+
+
+
+
+button input textarea{
+    outline: none;
+    appearance: none;
 }
 .start{
     margin: 0;
@@ -19,7 +62,7 @@
     font-family:"TildaSans",sans-serif;
     line-height: 1.7;
 }
-.toper{
+nav{
     width: 100%;
     margin: 0;
     padding: 0;
@@ -27,6 +70,8 @@
     justify-content: flex-end;
 }
 .bunt2{
+    font-family:"TildaSans",sans-serif;
+    font-weight: 700;
     line-height: 36px;
     font-size: 25px;
     text-decoration: none;
@@ -36,12 +81,11 @@
     opacity: 0.5;
 }
 .bunt{
-    display: flex;
     list-style: none;
     width: 50%;
     margin: 45px 0 45px 25%;
     padding: 0;
-    
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
@@ -64,32 +108,58 @@
     text-decoration: none;
     background-color: #fff;
 }
-.ibunt1{
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    margin: 20px;
-    font-size: 25px;
-    height: 35px;
-    color: #FF9235;
+.ibunt0{
+    padding: 15px 40px;
+    margin: 100px 0;
+    border: 2px solid #ff9235;
     border-radius: 15px;
-    border: 2px solid #FF9235;
+    color: #FF9235;
+}
+.ibunt01{
+    font-family: "TildaSans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: inherit;
+    
+}
+.ibunt1{
+    padding: 15px 40px;
+    margin: 0;
+    background-color: #ffffff;
+    border: 2px solid #ff9235;
+    border-radius: 15px;
+    color: #FF9235;
+    cursor: pointer;
+}
+a{
     text-decoration: none;
-    background-color: #fff;}
+    color: inherit;
+}
 h1{
     margin: 0;
     padding: 0;
-    font-size: 54px;
+    font-size: 40px;
     font-family: "TildaSans", sans-serif;
     font-weight: 700;
     line-height: 81px;
     text-transform: uppercase;
+    text-align: center;
 }
 h2{
     font-size: 36px;
+}
+.try1{
+    font-family: "TildaSans", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    text-align: center;
+    width: 70%;
+    margin: 0;
+    margin-top: 50px;
+    padding: 0
 }
 .try{
     font-family: "TildaSans", sans-serif;
@@ -98,7 +168,7 @@ h2{
     line-height: 54px;
     text-align: center;
     width: 70%;
-    margin: 48px 0 0 0;
+    margin: 40px 0 180px 0;
     padding: 0
 }
 .roum{ 
@@ -120,13 +190,24 @@ h2{
 }
 .roum12{
     background-color: #5DD9C8;
+    padding: 50px 0;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 75px 0 0 0;
-    font-size: 30px;
- 
+}
+.roum120{
+    margin: 0;
+    padding: 0;
+    font-family: "TildaSans", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    text-align: center;
+}
+.roum12 h1{
+    padding-bottom: 50px;
+    text-transform: none;
 }
 .roum123{
     width: 30vw;
@@ -142,10 +223,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 1.4;
-    padding: 50px;
-    padding-bottom: 100px;
-    text-align: center;
+    
 }
 .roum2 h1{
     margin: 60px 0;
@@ -160,32 +238,24 @@ h2{
     padding-bottom: 100px;
     text-align: center;
 }
-.roum30{
-    display: flex;
-}
 .roum31{
-    margin: auto;
-    z-index: 1;
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    gap: 10px;
-    line-height: 1.4;
-    padding-top: 20px;
-    padding-bottom: 100px;
-    width: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: center;
 }
 .roum312{
-    display: flex;
-    border: 1px solid #8063A6;
-    height: 160px;
-    border-radius: 12px;
-    overflow: hidden;
     padding: 0;
     margin: 0;
+    width: 24vw;
+    height: 13.5vw;
+    box-sizing: border-box;
+    border: 3px solid #8063a6;
+    border-radius: 12px;
+    overflow: hidden;
 }
 .roum3121{
-    border-radius: 12px;
-    display: block;
     object-fit: cover;
     height: 100%;
     width: 100%;
@@ -242,75 +312,114 @@ h2{
     width: 100%;
 }
 .alien{
-    width: 95%;
+    width: 80%;
     border-radius: 12px;
-    border: 1px solid #5dd9c8;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 70px;
 }
 .alien11{
-    border-left: 1px solid #5dd9c8;
+    border: 1px solid #5dd9c8;
     display: grid;
     grid-template-rows: 1fr 1fr;
     padding: 70px;
 }
-.alien11:first-child{
+/* .alien11:first-child{
     border-left: 0px;
-}
+} */
 .t132{
     display: inline-block;
     justify-content: center;
 }
+.form{
+    margin: 0 5vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 .form1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding: 50px;
-    width: auto;
-}
-.outform{
-    justify-content: center;
-}
-.inform{
-    display: inline-block;
-    padding: 50px;
-    position: relative;
-}
-.inform1 input{
-    width: 300px;
-    height: 60px;
-    border-radius: 12px;
-    border: 1px solid #FF9235;
-}
-.inform2 input{
-    width: 300px;
-    height: 60px;
-    border-radius: 12px;
-    border: 1px solid #FF9235;
-}
-.inform3 input{
-    width: 660px;
-    height: 300px;
-    border-radius: 12px;
-    border: 1px solid #FF9235;
-}
-.inform1 label{
-    display: block; 
-    margin-bottom: 10px;
-}
-.inform2 label{
-    display: block; 
-    margin-bottom: 10px;
-}
-.inform3 label{
-    display: block; 
-    margin-bottom: 10px;
+    width: 100%;
+    padding: 100px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 .trd{
-    display: grid;
-    grid-template-columns: 300px 300px;
-    gap: 60px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.trd .trd02{
+    min-width: 150px;
+    max-width: 20vw;
+    padding: 0 6px;
+}
+.trd0{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.trd01{
+    margin: 0 0 10px 4px;
+    padding: 0;
+    font-family: "TildaSans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+.trd02{
+    margin: 0;
+    font-family: "TildaSans", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    border: 1px solid #FF9235;
+    border-radius: 12px;
+}
+.trd .trd0:first-child{
+    padding-right: 10px ;
+}
+.trd1{
+    margin: 48px 0 0 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.trd1 .trd02{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 6px
+}
+.trd2{
+    margin: 48px 0 0 0;
+    padding: 0;
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.trd21{
+    font-family: "TildaSans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: inherit;
 }
 .inform1 {
     width: 300px;
@@ -322,16 +431,18 @@ h2{
     display: block; 
     margin-bottom: 10px;
 }
-.outimages{
-    width: auto;
-    padding-left: 100px;
-}
 .images{
     max-width: 80vw;
     margin: 66px 0 0 0;
     padding: 0;
-}.images1{
+}
+.images1{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.images2{
+    width: 35vw;
+    height: 35vw;
+    margin-left: 5vw;
 }
