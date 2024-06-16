@@ -314,21 +314,38 @@ h2{
 }
 .alien{
     width: 80%;
-    border: 1px solid #5dd9c8;
-    border-radius: 12px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 70px;
-}
-.alien11{
-    border-left: 1px solid #5dd9c8;
-    display: grid;
     grid-template-rows: 1fr 1fr;
-    padding: 70px;
+    margin-bottom: 70px;
+    
 }
-.alien11:first-child{
-    border-left: 0px;
+.alien>section{
+    padding: 70px;
+    border: 1px solid #5dd9c8;
+    border-left: none;
+}
+.ty6{
+    border-bottom: none !important;
+}
+.ty5{
+    border-top: none !important;
+}
+.u87{
+    border-left:1px solid #5dd9c8 !important; 
 } 
+.zew{
+    border-top-left-radius:12px;
+}
+.zew1{
+    border-top-right-radius:12px;
+}
+.zew2{
+    border-bottom-left-radius:12px;
+}
+.zew3{
+    border-bottom-right-radius:12px;
+}
 .t132{
     display: inline-block;
     justify-content: center;
