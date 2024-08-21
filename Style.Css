@@ -2,49 +2,49 @@
     font-family: TildaSans;
     font-style: normal;
     font-weight: 100;
-    src: url(TildaSans-Black.ttf) format("ttf");
+    src: url(fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 200;
-    src: url(TildaSans-Black.ttf) format("ttf");
+    src: url(fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 300;
-    src: url(TildaSans-Black.ttf) format("ttf");
+    src: url(fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 400;
-    src: url(TildaSans-Black.ttf) format("ttf");
+    src: url(fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 500;
-    src: url(TildaSans-Black.ttf) format("ttf");
+    src: url(fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 600;
-    src: url(TildaSans-Black.ttf) format("ttf");
+    src: url(fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 700;
-    src: url(TildaSans-Black.ttf) format("ttf");
+    src: url(fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 800;
-    src: url(TildaSans-Black.ttf) format("ttf");
+    src: url(fonts/TildaSans-Black.ttf) format("ttf");
 }
 
 
