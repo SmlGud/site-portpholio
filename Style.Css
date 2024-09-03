@@ -1,55 +1,73 @@
+:root{
+    --fonts:36px;
+    --fontw:400;
+    --lineh:54px;
+    --texta:center;
+    --fontf:"TildaSans", sans-serif;
+    --aligni: center;
+    --display:flex;
+    --width:100% ;
+    --flexd:column ;
+    --justcont:center;
+    --textd:none;
+    --border:1px solid #5dd9c8;
+    --flexd1: row;
+    --color:#ffffff;
+}
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 100;
-    src: url(fonts/TildaSans-Black.ttf) format("ttf");
+    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 200;
-    src: url(fonts/TildaSans-Black.ttf) format("ttf");
+    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 300;
-    src: url(fonts/TildaSans-Black.ttf) format("ttf");
+    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 400;
-    src: url(fonts/TildaSans-Black.ttf) format("ttf");
+    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 500;
-    src: url(fonts/TildaSans-Black.ttf) format("ttf");
+    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 600;
-    src: url(fonts/TildaSans-Black.ttf) format("ttf");
+    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 700;
-    src: url(fonts/TildaSans-Black.ttf) format("ttf");
+    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
 }
 @font-face{
     font-family: TildaSans;
     font-style: normal;
     font-weight: 800;
-    src: url(fonts/TildaSans-Black.ttf) format("ttf");
+    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
 }
-
-
-
-
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin-top: 126px;
+}
 
 button, input, textarea{
     outline: none;
@@ -65,77 +83,6 @@ button{
     font-family:"TildaSans",sans-serif;
     line-height: 1.7;
 }
-nav{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-}
-.bunt2{
-    font-family:"TildaSans",sans-serif;
-    font-weight: 700;
-    line-height: 36px;
-    font-size: 25px;
-    text-decoration: none;
-    color: #141c3a;
-}
-.bunt2:hover{
-    opacity: 0.5;
-}
-.bunt{
-    list-style: none;
-    width: 50%;
-    margin: 45px 0 45px 25%;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.bunt1{
-    padding: 0 5px;
-}
-.bunt19{
-    line-height: 1.4;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.ibunt{
-    font-size: 25px;
-    padding: 9px 22px;
-    color: #FF9235;
-    border-radius: 15px;
-    border: 2px solid #FF9235;
-    text-decoration: none;
-    background-color: #fff;
-}
-.ibunt0{
-    padding: 15px 40px;
-    margin: 100px 0;
-    border: 2px solid #ff9235;
-    border-radius: 15px;
-    color: #FF9235;
-}
-.ibunt01{
-    font-family: "TildaSans", sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: center;
-    color: inherit;
-    
-}
-.ibunt1{
-    padding: 15px 40px;
-    margin: 0;
-    background-color: #ffffff;
-    border: 2px solid #ff9235;
-    border-radius: 15px;
-    color: #FF9235;
-    cursor: pointer;
-}
 a{
     text-decoration: none;
     color: inherit;
@@ -143,507 +90,20 @@ a{
 h1{
     margin: 0;
     padding: 0;
-    font-size: 40px;
+    font-size: 54px;
     font-family: "TildaSans", sans-serif;
     font-weight: 700;
     line-height: 81px;
     text-transform: uppercase;
     text-align: center;
+    max-width: 90vw;
 }
 h2{
     font-size: 36px;
-}
-.try1{
-    font-family: "TildaSans", sans-serif;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 54px;
-    text-align: center;
-    width: 70%;
-    margin: 0;
-    margin-top: 50px;
-    padding: 0
-}
-.try{
-    font-family: "TildaSans", sans-serif;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 54px;
-    text-align: center;
-    width: 70%;
-    margin: 40px 0 180px 0;
-    padding: 0
-}
-.roum{ 
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 80px 0 0 0;
-    
 }
 .roum1{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-.roum12{
-    background-color: #5DD9C8;
-    padding: 50px 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.roum120{
-    margin: 0;
-    padding: 0;
-    font-family: "TildaSans", sans-serif;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 54px;
-    text-align: center;
-}
-.roum12 h1{
-    padding-bottom: 50px;
-    text-transform: none;
-}
-.roum123{
-    width: 30vw;
-    height: 40vw;
-    margin: -10vw 0 76px 0;
-    padding: 0;
-    border: 3px solid #5dd9c8;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.roum2{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-.roum2 h1{
-    margin: 60px 0;
-    font-size: 54px;
-}
-.roum3{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 1.4;
-    padding: 50px;
-    padding-bottom: 100px;
-    text-align: center;
-}
-.roum31{
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2vw;
-    justify-content: center;
-}
-.roum312{
-    padding: 0;
-    margin: 0;
-    width: 24vw;
-    height: 13.5vw;
-    box-sizing: border-box;
-    border: 3px solid #8063a6;
-    border-radius: 12px;
-    overflow: hidden;
-}
-.roum3121{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-
-}
-.tbsit{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start
-}
-.tbsit1{
-    width: 72px;
-    height: 72px;
-}
-.tbsit10{
-    padding: 0;
-    margin: 12px 0;
-    font-family: "TildaSans", sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 45px;
-    text-align: center;
-    color: #FF9235;
-}
-.tbsit11{
-    list-style: none;
-    font-family: "TildaSans", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 45px;
-    text-align: center;
-    margin: 0;
-    padding: 0 0 32px 0;
-    width: 100%;
-}
-.tbsit2{
-    padding: 0;
-    margin: 25px 0;
-    font-family: "TildaSans", sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 54px;
-    text-align: center;
-}
-.tbsit3{
-    font-family: "TildaSans", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 45px;
-    text-align: center;
-    margin: 0;
-    padding: 0 0 12px 0px;
-    width: 100%;
-}
-.alien{
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin-bottom: 70px;
-    
-}
-.alien>section{
-    padding: 70px;
-    border: 1px solid #5dd9c8;
-    border-left: none;
-}
-.ty6{
-    border-bottom: none !important;
-}
-.ty5{
-    border-top: none !important;
-}
-.u87{
-    border-left:1px solid #5dd9c8 !important; 
-} 
-.zew{
-    border-top-left-radius:12px;
-}
-.zew1{
-    border-top-right-radius:12px;
-}
-.zew2{
-    border-bottom-left-radius:12px;
-}
-.zew3{
-    border-bottom-right-radius:12px;
-}
-.t132{
-    display: inline-block;
-    justify-content: center;
-}
-.form{
-    margin: 0 5vw;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.form1{
-    width: 100%;
-    padding: 100px 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-.trd{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    border: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.trd .trd02{
-    min-width: 150px;
-    max-width: 20vw;
-    padding: 0 6px;
-}
-.trd0{
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-.trd01{
-    margin: 0 0 10px 4px;
-    padding: 0;
-    font-family: "TildaSans", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 36px;
-    text-align: center;
-}
-.trd02{
-    margin: 0;
-    font-family: "TildaSans", sans-serif;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 54px;
-    border: 1px solid #FF9235;
-    border-radius: 12px;
-}
-.trd .trd0:first-child{
-    padding-right: 10px ;
-}
-.trd1{
-    margin: 48px 0 0 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-.trd1 .trd02{
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 6px
-}
-.trd2{
-    margin: 48px 0 0 0;
-    padding: 0;
-    width: 100%;
-    border: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-.trd21{
-    font-family: "TildaSans", sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: center;
-    color: inherit;
-}
-.inform1 {
-    width: 300px;
-    display: block; 
-    margin-bottom: 10px;
-}
-.inform2 {
-    width: 300px;
-    display: block; 
-    margin-bottom: 10px;
-}
-.images{
-    max-width: 80vw;
-    margin: 66px 0 0 0;
-    padding: 0;
-}
-.images1{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-.images2{
-    width: 35vw;
-    height: 35vw;
-    margin-left: 5vw;
-}
-p#qwe{
-    width: 50%;
-}
-.note{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.note1{
-    width: 20vw;
-    height: 15vw;
-    margin: 51px 0;
-    padding: 0;
-    border: 3px solid #5dd9c8;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.note1 img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-.note12{
-    margin: 20px 0;
-    padding: 0;
-    font-family: "TildaSans", sans-serif;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 54px;
-    text-align: center;
-}
-.note123{
-    margin: 0;
-    padding: 0;
-    font-family: "TildaSans", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center
-}
-.n{
-    margin: o;
-    padding: 0;
-}
-.rev{
-    margin: 41px 0 45px 0;
-    width: 138px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.rev1{
-    padding: 0 6px;
-    height: 40px;
-    border: 2px solid #ff9235;
-    border-radius: 20px;
-    background: #ffffff;
-}
-.rev1:hover{
-    background: #ff9235;
-}
-.rev1:hover .rev12{
-    display: none;
-}
-.rev1:hover .rev123{
-    display: block;
-}
-.rev123{
-    display: none;
-}
-.rex{
-    margin: 0;
-    padding: 12px 2vw;
-    background-color: #8063a6;
-    border-radius: 12px;
-    width: 80%;
-    height: 166px;
-    display: flex;
-    flex-direction: row;
-    gap: 2vw;
-}
-.rex h2{
-    margin: auto 0;
-    color: #ffffff;
-    font-family: "TildaSans", sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 45px;
-    text-align: center;
-}
-.rex p{
-    margin: auto 0;
-    padding: 0;
-    color: #ffffff;
-    font-family: "TildaSans", sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    text-align: center;
-}
-.rex0{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.rex1{
-    margin: 0;
-    padding: 15px 30px;
-    border: 2px solid #ffffff;
-    border-radius: 15px;
-    color: #ffffff;
-}
-.rex1:hover{
-    background-color: #ffffff;
-    color: #8063a6;
-}
-.rex12{
-    font-family: "TildaSans", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: center;
-    white-space: nowrap;
-    color: inherit;
-}
-footer {
-    margin: -95px 0 0 0;
-    padding: 95px 0 0 0;
-    background-color: #5dd9c8;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.bials{
-    margin: 60px 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-}
-.bials1{
-    height: 48px;
-    width: 48px;
-    box-sizing: border-box;
-    margin: 0 15px;
-    padding: 4px;
-    border: 2px solid #141c3a;
-    border-radius: 48px;
-}
-.bials1:hover{
-    background-color: #8063a6;
-    border: 2px solid #8063a6;
-}
-.bials1:hover .bials12{
-    display: none;
-}
-.bials1:hover .rev123{
-    display: block;
-}
-.bials12{
-    height: 36px;
-    width: 36px;
-    object-fit: contain;
-    margin: 0;
-    padding: 0;
-}
-footer p{
-    margin: 30px 0 45px 0;
-    padding: 0;
-    font-family: "TildaSans", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
 }

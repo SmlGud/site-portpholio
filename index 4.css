@@ -1,0 +1,27 @@
+
+.roum12{
+    background-color: #5DD9C8;
+    padding: 50px 0;
+    width: var(--width);
+    display: var(--display);
+    flex-direction: var(--flexd);
+    align-items: var(--aligni);
+}
+.roum120{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontf);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    text-align: center;
+}
+.roum1{
+    width: var(--width);
+    display: var(--display);
+    flex-direction: var(--flexd);
+    align-items: var(--aligni);
+}
+#i4{
+    margin-bottom: 100px;
+}

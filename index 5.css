@@ -1,0 +1,128 @@
+
+.roum1{
+    width: var(--width);
+    display: var(--display);
+    flex-direction: var(--flexd);
+    align-items: var(--aligni);
+}
+.form{
+    margin: 0 5vw;
+    padding: 0;
+    display: var(--display);
+    flex-direction: var(--flexd);
+    width: 90%;
+}
+.form1{
+    width: var(--width);
+    padding: 100px 0;
+    box-sizing: border-box;
+    display: var(--display);
+    flex-direction: var(--flexd1);
+    align-items: var(--aligni);
+    justify-content: space-between;
+}
+
+.trd{
+    margin: 0;
+    padding: 0;
+    width: var(--width);
+    border: none;
+    display: var(--display);
+    flex-direction: var(--flexd1);
+    justify-content: space-between;
+}
+.trd .trd02{
+    min-width: 150px;
+    max-width: 20vw;
+    padding: 0 6px;
+}
+.trd0{
+    height: 100%;
+    display: var(--display);
+    flex-direction: var(--flexd);
+    align-items: flex-start;
+    justify-content: center;
+}
+.trd01{
+    margin: 0 0 10px 4px;
+    padding: 0;
+    font-family: var(--fontf);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: var(--aligni);
+}
+.trd02{
+    margin: 0;
+    font-family: var(--fontf);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    border: 1px solid #FF9235;
+    border-radius: 12px;
+}
+.trd .trd0:first-child{
+    padding-right: 10px ;
+}
+.trd1{
+    margin: 48px 0 0 0;
+    padding: 0;
+    width: var(--width);
+    height: 100%;
+    border: none;
+}
+.trd1 .trd02{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 6px
+}
+.trd2{
+    margin: 48px 0 0 0;
+    padding: 0;
+    width: var(--width);
+    border: none;
+    display: var(--display);
+    flex-direction: var(--flexd1);
+    justify-content: flex-end;
+}
+.trd21{
+    font-family: var(--fontf);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: inherit;
+}
+.ibunt1{
+    padding: 15px 40px;
+    margin: 0;
+    background-color: #ffffff;
+    border: 2px solid #ff9235;
+    border-radius: 15px;
+    color: #FF9235;
+    cursor: pointer;
+    transition: 1s 200ms;
+}
+.ibunt1:hover{
+    background-color: #FF9235;
+    color: #ffffff;
+}
+.images2{
+    width: 35vw;
+    height: 35vw;
+    margin-left: 5vw;
+}
+@media screen and (max-width:1000px) {
+    .form1{
+        flex-direction: column;
+    }
+    .trd02 {
+        max-width: unset !important;
+        width: var(--width);
+
+    }
+    .trd{
+        flex-direction: column;
+    }
+}

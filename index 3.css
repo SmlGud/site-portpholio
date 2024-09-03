@@ -1,0 +1,132 @@
+
+.roum3{
+    width: var(--width);
+    display: var(--display);
+    flex-direction: var(--flexd);
+    align-items: var(--aligni);
+    line-height: 1.4;
+    padding-top: 70px ;
+    padding-bottom: 0;
+    text-align: center;
+}
+.roum31{
+    margin-top: 70px;
+    width: 80%;
+    display: var(--display);
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+.roum312{
+    margin: 0;
+    padding: 0;
+    width: 24vw;
+    height: 13.5vw;
+    box-sizing: border-box;
+    border: 3px solid #8063a6;
+    border-radius: 12px;
+    z-index: 4;
+    transition: transform 0.3s ease-in, background 0.3s ease-in, box-shadow 0.3s ease-in, z-index 0.3s ease-out ;
+    overflow: hidden;
+}
+.roum312:hover{
+    z-index: 8;
+    transform: scale(1.25);
+    background: #8063a6;
+    box-shadow: 5px 5px 10px 0px #00000055;
+}
+.roum312:hover .wend{
+    opacity: 1;
+}
+.wend{
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font: 400 25px/27px "TildaSans", sans-serif;
+    color: white;
+    transform: opacity 0.3s ease-in;
+}
+.wend a{
+    font: 600 25px/27px "TildaSans", sans-serif;;
+    color: white;
+    margin-top: 30px;
+    padding: 9px 22px;
+    border: 2px solid white;
+    border-radius: 15px;
+
+}
+.wend a:hover{
+    background-color:white;
+    color: #8063a6;
+}
+.wend1{
+    transition: all 0.5s ease;
+}
+.rt1{
+    background: url(assets/images/sk1.png);
+    background-size:cover ;
+}
+.rt2{
+    
+    background: url(assets/images/sk2.png);
+    background-size:cover ;
+}
+.rt3{
+    
+    background: url(assets/images/sk3.png);
+    background-size:cover ;
+}
+.rt0{
+    
+    background: url(assets/images/skrin1.png);
+    background-size:cover ;
+}
+.roum3121{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+.ibunt0{
+    padding: 15px 40px;
+    margin: 100px 0;
+    border: 2px solid #ff9235;
+    border-radius: 15px;
+    color: #FF9235;
+    transition: 1s 200ms;
+}
+.ibunt0:hover{
+    background-color: #FF9235;
+    color: #ffffff;
+}
+.ibunt01{
+    font-family: var(--fontf);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: inherit;
+    
+}
+
+
+@media screen and (max-width: 1200px) {
+    .roum312{
+        width: 36vw;
+        height: 20.25vh;
+    }
+}
+@media screen and (max-width:900px) {
+    .roum31{
+        flex-wrap: unset;
+        flex-direction: column;
+    }
+    .roum312{
+        width: 64vw;
+        height: 36vw;
+    }
+}
