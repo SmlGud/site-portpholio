@@ -29,15 +29,10 @@
     padding: 80px 0 0 0;
     
 }
-.roum1{
-    width: var(--width);
-    display: var(--display);
-    flex-direction: var(--flexd);
-    align-items: var(--aligni);
-}
+
 .roum12{
     background-color: #5DD9C8;
-    padding: 50px 0;
+    padding: 75px 0;
     width: var(--width);
     display: var(--display);
     flex-direction: var(--flexd);

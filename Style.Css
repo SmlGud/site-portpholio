@@ -3,7 +3,8 @@
     --fontw:400;
     --lineh:54px;
     --texta:center;
-    --fontf:"TildaSans", sans-serif;
+    --fontf:"TildaSans" ,sans-serif;
+    --fontf1:400 30px/45px "TildaSans" ,sans-serif; 
     --aligni: center;
     --display:flex;
     --width:100% ;
@@ -14,59 +15,65 @@
     --flexd1: row;
     --color:#ffffff;
 }
-@font-face{
-    font-family: TildaSans;
-    font-style: normal;
-    font-weight: 100;
-    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
-}
-@font-face{
-    font-family: TildaSans;
-    font-style: normal;
-    font-weight: 200;
-    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
-}
-@font-face{
-    font-family: TildaSans;
+@font-face {
+    font-family: 'TildaSans';
     font-style: normal;
     font-weight: 300;
-    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
+    src: local('TildaSans'), url('assets/fonts/TildaSans-Light.ttf');
 }
-@font-face{
-    font-family: TildaSans;
+
+@font-face {
+    font-family: 'TildaSans';
     font-style: normal;
     font-weight: 400;
-    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
+    src: local('TildaSans'), url('assets/fonts/TildaSans/TildaSans-Regular.ttf');
 }
-@font-face{
-    font-family: TildaSans;
+
+@font-face {
+    font-family:'TildaSans';
     font-style: normal;
     font-weight: 500;
-    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
+    src: local('TildaSans'), url('assets/fonts/TildaSans/TildaSans-Medium.ttf');
 }
-@font-face{
-    font-family: TildaSans;
+
+@font-face {
+    font-family: 'TildaSans';
     font-style: normal;
     font-weight: 600;
-    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
+    src: local('TildaSans'), url('assets/fonts/TildaSans/TildaSans-Semibold.ttf');
 }
-@font-face{
-    font-family: TildaSans;
+
+@font-face {
+    font-family: 'TildaSans';
     font-style: normal;
     font-weight: 700;
-    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
+    src: local('TildaSans'), url('assets/fonts/TildaSans/TildaSans-Bold.ttf');
 }
-@font-face{
-    font-family: TildaSans;
+
+@font-face {
+    font-family: 'TildaSans';
     font-style: normal;
     font-weight: 800;
-    src: url(assets/fonts/TildaSans-Black.ttf) format("ttf");
+    src: local('TildaSans'), url('assets/fonts/TildaSans/TildaSans-ExtraBold.ttf');
 }
+
+@font-face {
+    font-family: 'TildaSans';
+    font-style: normal;
+    font-weight: 900;
+    src: local('TildaSans'), url('assets/fonts/TildaSans/TildaSans-Black.ttf');
+}
+
+
+
 html {
     scroll-behavior: smooth;
 }
 body {
     margin-top: 126px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
 button, input, textarea{
@@ -77,8 +84,6 @@ button{
     cursor: pointer;
 }
 .start{
-    margin: 0;
-    padding: 0;
     color: #141c3a;
     font-family:"TildaSans",sans-serif;
     line-height: 1.7;
@@ -91,7 +96,7 @@ h1{
     margin: 0;
     padding: 0;
     font-size: 54px;
-    font-family: "TildaSans", sans-serif;
+    font-family: "TildaSans";
     font-weight: 700;
     line-height: 81px;
     text-transform: uppercase;

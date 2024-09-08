@@ -1,13 +1,9 @@
 
 
-.roum2 {
-    width: var(--width);
-    display: var(--display);
-    flex-direction: var(--flexd);
-    align-items: var(--aligni);
 
+#i6 h1{
+    margin: 64px 0;
 }
-
 .try1 {
     font-family: var(--fontf);
     font-size: 36px;

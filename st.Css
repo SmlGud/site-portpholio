@@ -1,0 +1,61 @@
+body{
+    margin: 40px !important ;
+}
+.top {
+    
+    padding: 25vh 25vw;
+    font: 400 36px/54px "TildaSans", sans-serif;
+    color: #566473;
+    background-image: url(assets/images/2065682.svg);
+    background-size: 124px auto;
+    background-repeat: space;
+}
+.qw{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    margin: 15px 25px;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 0.65em;
+}
+
+a:hover::before,
+a:hover::after,
+a:focus::before,
+a:focus::after {
+    transform: scale(1);
+}
+
+a:hover::after,
+a:focus::after {
+    top: 0%;
+    opacity: 1;
+}
+
+
+a::before,
+a::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #566473;
+    content: '';
+    transition: transform 0.3s;
+    transform: scale(0.85);
+}
